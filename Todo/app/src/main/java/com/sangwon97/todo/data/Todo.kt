@@ -8,5 +8,6 @@ data class Todo ( //이거는 데이타 클래스 소괄호 써야함 생성자�
     @PrimaryKey(autoGenerate = true)
     val num:Int = 0,
     val title:String,
-    val completed:Boolean
+    val completed:Boolean = false
+
 )
